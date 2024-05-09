@@ -1,0 +1,11 @@
+{
+    "hooks": {
+        "URL params": {
+            "function": [
+                "URLSearchParams.prototype.get",
+                "URLSearchParams.prototype.has"
+            ]
+        }
+    },
+    "config": {}
+}

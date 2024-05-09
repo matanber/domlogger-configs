@@ -1,0 +1,11 @@
+{
+    "hooks": {
+        "query selectors": {
+            "function": [
+                "document.querySelector",
+                "document.querySelectorAll"
+            ]
+        }
+    },
+    "config": {}
+}
