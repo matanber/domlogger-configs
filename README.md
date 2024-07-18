@@ -1,3 +1,6 @@
+# Note
+The configurations in the official [DomLogger++ repo](https://github.com/kevin-mizu/domloggerpp) are much better than the ones provided here, you should probably use them instead.
+
 # DomLogger Configs
 This repos includes some useful configurations for the [DomLogger++ extension](https://github.com/kevin-mizu/domloggerpp) by [Kévin - Mizu](https://github.com/kevin-mizu). To import one of the configurations, navigate to the settings page of the extension, and either paste in the configuration or click on the import icon.
 
