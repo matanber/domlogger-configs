@@ -1,5 +1,8 @@
 {
   "config": {
+    "params": {
+      "alert": {}
+    },
     "selectors": {
       "alert": {
         "notification": true
@@ -10,6 +13,12 @@
     }
   },
   "hooks": {
+    "params": {
+      "function": [
+        "URLSearchParams.prototype.get",
+        "URLSearchParams.prototype.has"
+      ]
+    },
     "selectors": {
       "function": [
         "document.querySelector",
