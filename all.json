@@ -1,5 +1,11 @@
 {
   "config": {
+    "customElements": {
+      "hookFunction": "domlogger.globals.customElements[args[0]] = args[1]; return args",
+      "match": [
+        "NeverMatchPleaseThanks"
+      ]
+    },
     "params": {
       "alert": {}
     },
@@ -12,10 +18,19 @@
       ]
     }
   },
+  "globals": {
+    "customElements": {}
+  },
   "hooks": {
+    "customElements": {
+      "function": [
+        "customElements.define"
+      ]
+    },
     "params": {
       "function": [
         "URLSearchParams.prototype.get",
+        "URLSearchParams.prototype.getAll",
         "URLSearchParams.prototype.has"
       ]
     },
